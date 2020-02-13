@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="10dp"
+    tools:context=".Loginslur">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_round"
+        android:padding="10dp"
+        android:hint="username" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_round"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="password"
+        android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_round"
+        android:layout_marginTop="10dp"
+        android:text="Login" />
+
+</LinearLayout>
